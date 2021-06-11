@@ -21,7 +21,7 @@ export class NewsService {
 
   headlines(source: string): Observable<NewsItem> {
     return this.http
-      .get<NewsItem>("https://newsapi.org/v2/top-headlines?country=ca&apiKey=3d7db8d60b83485292be15b60fd47e25" + source)
+      .get<NewsItem>("https://newsapi.org/v2/top-headlines?country=ca&apiKey=3d7db8d60b83485292be15b60fd47e25")
       .pipe(map((res: any) => res.articles));
   }
 }

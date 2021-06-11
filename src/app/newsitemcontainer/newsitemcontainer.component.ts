@@ -1,6 +1,5 @@
 import { Component, OnInit } from "@angular/core";
 import { NewsService } from "../_services/news.service";
-
 import {Article, Source, SourcesResponse} from '../_models/news/Source';
 import { NewsItem } from "../_models/news/NewsItem";
 

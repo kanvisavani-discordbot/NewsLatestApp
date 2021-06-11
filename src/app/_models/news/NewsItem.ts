@@ -1,5 +1,4 @@
 export interface NewsItem {
-	
 	source: {
 		id: string;
 		name: string;
